@@ -21,9 +21,9 @@ def load_recipe_data():
 
 # Function to load model and scaler
 def load_model():
-    with open(r'C:\Users\sr322\OneDrive\Desktop\ML_Model_Deployment\Nutrition in budget\kmeans_model11.sav', 'rb') as model_file:
+    with open(r'kmeans_model11.sav', 'rb') as model_file:
         model = pickle.load(model_file)
-    with open(r'C:\Users\sr322\OneDrive\Desktop\ML_Model_Deployment\Nutrition in budget\scaler_model11.sav', 'rb') as scaler_file:
+    with open(r'scaler_model11.sav', 'rb') as scaler_file:
         scaler = pickle.load(scaler_file)
     return model, scaler
 
