@@ -17,7 +17,7 @@ import pickle
 
 # Function to load recipe data from an Excel file
 def load_recipe_data():
-    return pd.read_excel(r'C:\Users\sr322\OneDrive\Desktop\ML_Model_Deployment\Nutrition in budget\recipeeees.xlsx')  # Adjust file path as necessary
+    return pd.read_excel(r'recipeeees.xlsx')  # Adjust file path as necessary
 
 # Function to load model and scaler
 def load_model():
