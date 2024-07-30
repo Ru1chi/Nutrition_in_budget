@@ -1,1 +1,0 @@
-streamlit run "C:\Users\sr322\OneDrive\Desktop\ML_Model_Deployment\Nutrition in budget\nutrition_web_app.py"
